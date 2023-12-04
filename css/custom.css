@@ -4,6 +4,7 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;800&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11854,6 +11855,38 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.carousel-item {
+  max-height: 60vh;
+}
+
+.carousel-item > img {
+  transform: scaleX(1);
+}
+
+.carousel-caption {
+  top: 1rem;
+  right: auto;
+}
+
+header #hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card {
+  padding: 0;
+}
+
+.card {
+  padding: 0;
+  flex: auto;
+}
+
+.row {
+  gap: 1rem;
+  --bs-gutter-x: 0;
+  flex-wrap: nowrap;
 }
 
 /*# sourceMappingURL=custom.css.map */
